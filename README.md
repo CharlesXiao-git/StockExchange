@@ -106,19 +106,19 @@ Totally 4.5 hours to complete the task
 
 # Test the application
 1. run java -cp ./target/stockexchange-1.0.0-jar-with-dependencies.jar com.stock.application CXA
- you will get the following infomation:
+## get the following infomation:
  
-  Before run,get the state in store is : {CBA=100, ANZ=30, NAB=80, QAN=50} 
+  1.Before run,get the state in store is : {CBA=100, ANZ=30, NAB=80, QAN=50} 
   --- Before run, it shows the aggregate volume available for each code
-  exchangeType is: CXA
+  2.exchangeType is: CXA
   --- It is the exchangeType from the command
-  trade1 sell remain:  77
+  3.trade1 sell remain:  77
   ---- trade1 is the trade name, when sell, it shows the remain volume number 
-  trade2 buy remain:  60
+  4.trade2 buy remain:  60
    ----trade2 is the trade name, when buy, it shows the remain volume number 
-  Total stock exchange charges is : 0.55 $
+  5.Total stock exchange charges is : 0.55 $
   ---- It shows total exchange charges 
-  After run, get the state in store is : {CBA=100, ANZ=30, NAB=77, QAN=50}
+  6.After run, get the state in store is : {CBA=100, ANZ=30, NAB=77, QAN=50}
   ----When finish, it shows the aggregate volume available for each code
 
   
